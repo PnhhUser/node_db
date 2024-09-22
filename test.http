@@ -1,0 +1,26 @@
+PUT http://localhost:3000/api/user/66ef8c35441145e3b25a4ec1
+Content-Type: application/json
+
+   {
+      "username": "huyHoang",
+      "password": "1234567"
+   }
+
+###
+
+DELETE http://localhost:3000/api/user/66ed6e1075ba1bf0242d27f9
+
+
+###
+
+GET http://localhost:3000/api/user/66ed6e1075ba1bf0242d27f9
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+   "username": "huyHoang12345a",
+   "password": "1234567"
+}
